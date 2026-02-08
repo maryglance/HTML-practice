@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+<h1>Checkout</h1>
+<section>
+    <h2>Your Cart</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdIFwvKK_FJ_M9j-pwdzIQISDwBfFLQL5T2A&s" alt="Pink Sugar HD Lipstick" id="lipstick">
+    <label for="lipstick">Pink Sugar HD Lipstick</label>
+</section>
+<section>
+<h2>Payment Information</h2>
+<form>
+    <label for="card-name" >Cardholder Name <span aria-hidden="true">*</span></label>
+    <input name="card-name" id="card-name" type="text" required>
+    <br>
+    <label for="card-number">Card Number <span aria-hidden="true">*</span></label>
+    <input id="card-number" name="card-number" type="text" aria-describedby="card-number-help" required>
+    <p id="card-number-help" aria-describedby="card-number">Please enter your 16-digit card number without spaces or dashes.</p>
+</form>
+</section>
+    <button type="submit">Place Order</button>
+</body>
+
+</html>
